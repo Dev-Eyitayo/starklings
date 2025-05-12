@@ -2,7 +2,10 @@
 
 // I AM NOT DONE
 
+use core::print::print;
+
 fn main() {
-    x = 5 ;
-    println!(" x is {}", x)
+    let x = 5;
+    print(x);
 }
+

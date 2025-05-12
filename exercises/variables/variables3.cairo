@@ -2,7 +2,9 @@
 
 // I AM NOT DONE
 
+use core::print::print;
+
 fn main() {
-    let x: felt252;
-    println!("x is {}", x);
+    let x: felt252 = 42;
+    print(x);
 }

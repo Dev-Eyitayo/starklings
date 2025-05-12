@@ -2,11 +2,14 @@
 
 // I AM NOT DONE
 
+use core::print::print;
+use core::felt252;
+
 fn main() {
-    let x;
+    let x = 10;
     if x == 10 {
-       println!("x is ten! ");
+        print('x is ten!'); // felt252 string literal (short text)
     } else {
-        println!("x is not ten! ");
+        print('x not ten');
     }
 }

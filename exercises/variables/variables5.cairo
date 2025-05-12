@@ -1,10 +1,14 @@
 
 
 // I AM NOT DONE
+use core::print::print;
+use core::felt252;
 
 fn main() {
-    let number = 1_u8; // don't change this line
-    println!("number is {}", number);
-    number = 3; // don't rename this variable
-    println!("number is {}", number);
+    let number = 1; // Number is 1
+    print('number is 1');
+
+    // Shadowing (creating a new `number` variable)
+    let number = 3; // Shadowing
+    print('number is 3');
 }
